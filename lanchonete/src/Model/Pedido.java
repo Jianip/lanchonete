@@ -2,12 +2,8 @@ package Model;
 
 public class Pedido {
 
-    public String getStatus() {
-        return cliente.getNomeinteiro() + " " + hamburguer.getHamburgao();
-    }
     private Cliente cliente;
     private Hamburguer hamburguer;
-
 
     public Pedido(Cliente cliente, Hamburguer hamburguer) {
         this.cliente = cliente;
